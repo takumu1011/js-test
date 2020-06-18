@@ -1,0 +1,12 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.2s ease-out 0s;
+}
+.box.show {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const items = [10, 15, 20, 1, 4, 19, 10];
+    const upResult = items.sort((a, b) => {
+        return a - b;
+    });
+    console.log(upResult);
+    const downResult = items.sort((a, b) => {
+      return b- a;
+    });
+    console.log(downResult);
+  </script>
+</body>
+</html>

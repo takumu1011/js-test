@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mv {
+  width: 100vw;
+  height: 100vh;
+  background: url(sample.png) no-repeat center center;
+  background-size: cover;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-redo-alt {
+  font-size: 200px;
+  color: deepskyblue;
+}
