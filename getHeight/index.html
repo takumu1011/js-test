@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrap {
+      position: relative;
+      top: 500px;
+      left: 0;
+    }
+
+    .trg {
+      position: absolute;
+      top: 500px;
+      left: 500px;
+      width: 100px;
+      height: 100px;
+      background-color: #000;
+      border: 10px solid #ff0000;
+      padding: 10px;
+      transform: scale(0.5);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div id="trg" class="trg">ターゲット</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
