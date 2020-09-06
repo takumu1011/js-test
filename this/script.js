@@ -42,3 +42,13 @@ let object = {
   },
 };
 object.fn1();
+
+let foo = {
+  func1: function (bar) {
+    bar(); //window
+    console.log(this); //foo
+  },
+};
+foo.func1(function () {
+  console.log(this);
+});
