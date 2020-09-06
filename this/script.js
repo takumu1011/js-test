@@ -32,3 +32,13 @@ let Person = function (name, age) {
 let taro = new Person('太郎', 20);
 taro.getThis();
 taro.getName();
+
+let object = {
+  fn1() {
+    console.log(this); //object
+    let fn2 = (function () {
+      console.log(this); //window
+    })();
+  },
+};
+object.fn1();
